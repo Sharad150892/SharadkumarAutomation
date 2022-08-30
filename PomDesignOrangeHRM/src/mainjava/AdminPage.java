@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import test.BaseTest;
 
-public class AdminPage extends BaseTest {
+public class AdminPage extends BaseClass {
 	
 	@FindBy(xpath="//span[text()='Admin']")
 	WebElement adminBtn;

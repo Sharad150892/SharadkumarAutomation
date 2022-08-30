@@ -13,10 +13,10 @@ public class AdminTest extends BaseTest {
 		loginPage.loginMethod();
 	}
 	
-	@Test(priority=3, groups={"smoke","regression"})
+	@Test(priority=5, groups={"smoke","regression"})
 	public void verifyAdminPage() {
 		adminPage.clickOnAdmin();
-		AssertJUnit.assertEquals(adminPage.titleOfAdminpage(), "Admin");
+		Assert.assertEquals(adminPage.titleOfAdminpage(), "Admin");
 	}
 
 }

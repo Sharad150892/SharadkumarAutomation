@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import test.BaseTest;
 
-public class LoginPage extends BaseTest {
+public class LoginPage extends BaseClass {
 	
 	//All the Locator of Page
 	

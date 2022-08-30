@@ -15,8 +15,8 @@ public class PimTest extends BaseTest{
 		loginPage.loginMethod();
 	}
 	
-	@Test(priority=2, groups={"smoke","regression"})
+	@Test(priority=4, groups={"smoke","regression"})
 	public void verifyPimPage() {
-		AssertJUnit.assertEquals(pimPage.titleOfPimPage(), "PIM");
+		Assert.assertEquals(pimPage.titleOfPimPage(), "PIM");
 	}
 }

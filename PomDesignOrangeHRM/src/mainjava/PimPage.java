@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import test.BaseTest;
 
-public class PimPage extends BaseTest{
+public class PimPage extends BaseClass{
 	
 	@FindBy(xpath="//h6[text()='PIM']")
 	WebElement txtPage;
