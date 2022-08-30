@@ -19,4 +19,10 @@ public class PimTest extends BaseTest{
 	public void verifyPimPage() {
 		Assert.assertEquals(pimPage.titleOfPimPage(), "PIM");
 	}
+	
+	@Test(priority=5)
+	public void verifySearchEmployee() {
+		pimPage.employeeId();
+		pimPage.search();
+	}
 }
